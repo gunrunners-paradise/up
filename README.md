@@ -1,4 +1,4 @@
-# up- debian, ubuntu and raspbian update tool
+# up - debian, ubuntu and raspbian update tool
 
 
 1. Description:
