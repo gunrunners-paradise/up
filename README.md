@@ -32,10 +32,9 @@
 	 Up is a tool that automates the update procedure for Debian and Ubuntu based
 	 Linux systems.
 
-	Commands:
+	Commands
         	p = full system update.
-	       Running "up" with no options will update the apt cache and then perform a
-        	ull distribution update automatically.
+	       Running "up" with no options will update the apt cache and then perform a full distribution update automatically.
 
 	       up --clean = full system update with cleanup.
 	       Adding the "--clean" option will invoke the apt commands to search for and
