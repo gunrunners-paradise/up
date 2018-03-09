@@ -6,7 +6,7 @@
  Up is a tool that automates the update procedure for Debian, Ubuntu and Rasbpian based
  Linux systems.
  It's inspired by Joe Collins' bash script of the same name,
- visit his site at www,ezeelinux.com for more information.
+ visit his site at www.ezeelinux.com for more information.
 
 2. Installation:
 
