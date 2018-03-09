@@ -8,7 +8,7 @@ int checkos()
 	uname(&unameData);
 	if (strcmp(unameData.nodename, "raspbian") == 0)
 	    printf("Up - Debian/Ubuntu/Raspbian update tool\n");
-	if (strcmp(unameData.nodename, "raspberrypi") == 0)
+	else if (strcmp(unameData.nodename, "raspberrypi") == 0)
 	    printf("Up - Debian/Ubuntu/Raspbian update tool\n");
 	else if (strcmp(unameData.nodename, "debian") == 0)
 	    printf("Up - Debian/Ubuntu/Raspbian update tool\n");
