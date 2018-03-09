@@ -6,6 +6,8 @@ struct utsname unameData;
 int checkos()
 {
 	uname(&unameData);
+	if (strcmp(unameData.nodename, "raspbian") == 0)
+	    printf("Up - Debian/Ubuntu/Raspbian update tool\n");
 	if (strcmp(unameData.nodename, "raspberrypi") == 0)
 	    printf("Up - Debian/Ubuntu/Raspbian update tool\n");
 	else if (strcmp(unameData.nodename, "debian") == 0)
@@ -43,8 +45,8 @@ void error()
 
 void help()
 {
-	printf("\nUp is a tool that automates the update procedure for Debian and Ubuntu based\n"
-	" Linux systems.\n\n"
+	printf("\nUp is a tool that automates the update procedure for Debian, Raspbian\n"
+	" and Ubuntu based Linux systems.\n\n"
 	" Commands:\n"
 	" \tup = full system update.\n"
 	" \tRunning \"up\" with no options will update the apt cache and then perform a\n"
