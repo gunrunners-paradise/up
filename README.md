@@ -13,6 +13,7 @@
  Unzip the "up.c" file from the zip archive, compile it with "make up" from within the console
  and move the compiled binary to either /usr/local/bin or ~/bin. You can either do this from a command line or simply
  drag the file within your file manager to wherever you'd like it to go.
+ Compiling it on the Raspberry Pi works eactly the same.
 
  Note: This app will NOT work if you have any other operating system than Debian, Ubuntu or Rasbpian.
  Those who intend to run up from a script for cron, anacron or systemd
