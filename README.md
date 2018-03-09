@@ -29,20 +29,20 @@
 
 5. Contents of Help Page:
 
-	 Up is a tool that automates the update procedure for Debian and Ubuntu based
-	 Linux systems.
+	Up is a tool that automates the update procedure for Debian and Ubuntu based
+	Linux systems.
 
 	Commands:
 
 		p = full system update.
 		Running "up" with no options will update the apt cache and then perform a full distribution update automatically.
 
-	       up --clean = full system update with cleanup.
-	       Adding the "--clean" option will invoke the apt commands to search for and
-	       remove locally cached packages that are no longer in the repositories and
-	       remove orphaned packages that are no longer needed by programs.
-	       up --help = shows this help page.
-	       up -h = same as above.
+		up --clean = full system update with cleanup.
+		Adding the "--clean" option will invoke the apt commands to search for and
+		remove locally cached packages that are no longer in the repositories and
+		remove orphaned packages that are no longer needed by programs.
+		up --help = shows this help page.
+		up -h = same as above.
 
 	By Oleg Cherkasky www.github.com/gunrunners-paradise (GNU/General Public License version 2.0)
 	Inspired by Joe Collins www.ezeelinux.com
